@@ -7,7 +7,7 @@ import java.lang.invoke.MethodHandles;
 
 public class Slf4jSampleApplication {
 
-    final static Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+    private final static Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
     public static void main(String[] args) {
         logger.info("Hello {}!", "hainet");
