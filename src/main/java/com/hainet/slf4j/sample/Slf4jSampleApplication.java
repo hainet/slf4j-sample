@@ -8,7 +8,7 @@ public class Slf4jSampleApplication {
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(Slf4jSampleApplication.class);
         logger.info("Hello {}!", "hainet");
-        logger.info("Hello RuntimeException!", new RuntimeException("This is RuntimeException!"));
+        logger.info("Hello Throwable!", new RuntimeException("This is RuntimeException!"));
 
         System.out.println("ログが表示されたかに関わらず次の処理が実施される。");
     }
