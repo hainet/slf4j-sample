@@ -13,8 +13,8 @@ dependencies {
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
 
     // logback
-    // compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
-    // compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'ch.qos.logback', name: 'logback-core', version: '1.2.3'
 
     // log4j
     // compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
@@ -23,7 +23,7 @@ dependencies {
     // compile group: 'org.slf4j', name: 'slf4j-jdk14', version: '1.7.25'
 
     // simple
-    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+    // compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
 
     // no-operation
     // compile group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.25'

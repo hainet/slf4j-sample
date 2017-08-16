@@ -13,7 +13,5 @@ public class Slf4jSampleApplication {
         logger.info("Hello {}!", "hainet");
         logger.info("Hello Throwable!", new RuntimeException("This is RuntimeException!"));
         logger.info("{} / \\{}", "Replaced!");
-
-        System.out.println("ログが表示されたかに関わらず次の処理が実施される。");
     }
 }
